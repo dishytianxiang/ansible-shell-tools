@@ -1,5 +1,5 @@
 #### 新增拷贝文件到远程主机目录脚本
-- 脚本执行示例：bash transfer_file.sh -h hadoop -f transfer_hosts -t gz  -src "/matrix/PLATFORM_HDP/packages/platform-sdk-ab2057c492aa1ec891ca0fc33f78c16aed9af083.tar.gz" -dest "/matrix/soapa-platform/platform-work/platform-sdk"
+- 脚本执行示例：bash transfer_file.sh -h hadoop -f transfer_hosts -t gz  -src "xxx.gz" -dest "/dirxxx"
 - 验证脚本参数，任何参数不满足就退出执行，参数如下：
  * -f: ansible config file 
  * -h: group name of ansible operating hosts
